@@ -26,3 +26,4 @@ FOUNDATION_EXPORT const unsigned char AdjustSdkTvVersionString[];
 #import <AdjustSdkTv/ADJEventFailure.h>
 #import <AdjustSdkTv/ADJSessionSuccess.h>
 #import <AdjustSdkTv/ADJSessionFailure.h>
+#import <AdjustSdkTv/ADJCriteo.h>
