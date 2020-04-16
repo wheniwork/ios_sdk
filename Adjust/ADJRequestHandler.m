@@ -30,6 +30,8 @@
 
 @property (nonatomic, strong) NSHashTable<NSString *> *exceptionKeys;
 
+@property (nonatomic, copy) NSString *subscriptionPath;
+
 @end
 
 @implementation ADJRequestHandler

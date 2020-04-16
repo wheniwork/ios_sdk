@@ -529,6 +529,9 @@ static dispatch_once_t onceToken = 0;
     if (testOptions.extraPath != nil) {
         self.savedPreLaunch.extraPath = testOptions.extraPath;
     }
+    if (testOptions.subscriptionPath != nil) {
+        self.savedPreLaunch.subscriptionPath = testOptions.subscriptionPath;
+    }
     if (testOptions.baseUrl != nil) {
         [ADJAdjustFactory setBaseUrl:testOptions.baseUrl];
     }
